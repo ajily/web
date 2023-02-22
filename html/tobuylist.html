@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>To do list</title>
+  <link rel="stylesheet" href="../css/menu.css">
+  <link href="../css/list.css" rel="stylesheet">
+  <script defer src="../js/list.js"></script>
+</head>
+
+<body id="toDoList" class="main">
+<meta name="viewport" content="width=device-width, user-scalable=no">
+<div class="wrapper">
+  <div class="menu">
+    <a href="#" class="menu-btn"></a>
+    <nav class="menu-list">
+      <a href="index.html" > Главная </a>
+      <a href="gallery.html"> галерея </a>
+      <a href="schedule.html"> Расписание </a>
+      <a href="tobuylist.html"> Список покупок </a>
+    </nav>
+  </div>
+</div>
+<div class="main__container">
+  <h1>Shopping list</h1>
+
+  <form class="main__todo-form">
+    <input class="main__todo-input" type="text" placeholder="пиши сюда">
+    <button class="main__add-button" type="submit">+</button>
+  </form>
+
+  <ul class="main__todo-items"></ul>
+</div>
+
+  <div class="preloader">
+    <img src="../pics/error-wait.gif"/>
+  </div>
+<script src="../js/navigation.js"></script>
+</body>
+</html>
