@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #7b776f;
+}
+.gallery{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 15px 0;
+}
+.gallery img{
+    flex-wrap: wrap;
+    width: 320px;
+    height: 400px;
+    margin: 10px 0;
+    -webkit-filter: drop-shadow(5px 5px 10px black);
+}
+h2{
+    font-family: "Verdana", sans-serif;
+    text-align: center;
+    color: #ffffff;
+    border-bottom: 2px solid #cccccc;
+    padding-bottom: 12px;
+}
+.wrapper {
+    position: relative;
+    overflow-x: hidden;
+}

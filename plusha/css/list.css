@@ -1,0 +1,149 @@
+body {
+    background-image: url('../pics/000214560025.jpg');
+    color: darkslategray ;
+}
+
+h1 {
+    font-size: 70px;
+    text-align: center;
+    font-weight: 200;
+    text-transform: uppercase;
+    line-height: 1;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #847462;
+    text-transform: uppercase;
+    line-height: 1;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.wrapper {
+    position: relative;
+    overflow-x: hidden;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: slategray;
+}
+
+.main__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 150px;
+}
+
+.main__rollback {
+    margin-top: 4vh;
+}
+
+.main__todo-form {
+    margin: 6vh 0;
+}
+
+.main__todo-input {
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    padding: 20px;
+    margin-right: 20px;
+    font-size: 35px;
+}
+
+.main__todo-items{
+    padding: 0;
+}
+.main__todo-items li{
+    list-style-type: none;
+}
+
+.main__add-button {
+    background-color: darkslategray;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 35px;
+}
+
+.main__button {
+    font-size: 1.8vh;
+    background-color: darkslategray;
+    color: white;
+    border: none;
+    outline: none;
+}
+
+.todo-items {
+    min-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.item {
+    color: #B3B0AD;
+    background-color: white;
+    padding: 20px;
+    font-size: 1.5rem;
+}
+
+.item:first-child {
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.item:last-child {
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+.checkbox {
+    margin-right: 40px;
+}
+
+.delete-button {
+    float: right;
+    color: white;
+    background-color: darkslategray;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    padding: 2px 5px;
+    margin-left: 10px;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.checked {
+    text-decoration: line-through;
+}
+
+@media only screen and (max-width: 400px) {
+    .main__todo-input {
+        border-radius: 1vh;
+        padding: 1vh;
+        margin-right: 2vh;
+        font-size: 2vh;
+    }
+
+    .main__add-button {
+        border-radius: 1vh;
+        padding: 1vh;
+        font-size: 2vh;
+    }
+
+    .item {
+        padding: 6px;
+        font-size: 1rem;
+    }
+    .delete-button {
+        font-size: 1rem;
+    }
+}
